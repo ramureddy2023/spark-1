@@ -120,7 +120,7 @@ If you're on a regular Python shell or notebook, you can try it as shown below:
         "spark.archives",  # 'spark.yarn.dist.archives' in YARN.
         "pyspark_conda_env.tar.gz#environment").getOrCreate()
     main(spark)
-
+.. shell
 For a pyspark shell:
 
 .. code-block:: bash
